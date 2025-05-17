@@ -594,22 +594,6 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer
-        style={{
-          padding: "32px 0",
-          backgroundColor: "#0f172a",
-          color: "#94a3b8",
-        }}
-      >
-        <div style={{ ...styles.container, ...styles.textCenter }}>
-          <p>
-            © {new Date().getFullYear()} Secure Authentication System. All
-            rights reserved.
-          </p>
-        </div>
-      </footer>
     </>
   );
 };
